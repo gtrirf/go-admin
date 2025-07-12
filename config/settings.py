@@ -13,7 +13,7 @@ environ.Env.read_env(BASE_DIR / '.env')
 SECRET_KEY = env('SECRET_KEY')
 
 DEBUG = env('DEBUG').lower() == 'true'
-SERVER_HOST = "https://islombek.alwaysdata.net"
+# SERVER_HOST = "https://islombek.alwaysdata.net"
 # SERVER_HOST = env('CURRENT_PROTOCOL') + '://' + env(
 #     'CURRENT_HOST') + f"{':' + env('CURRENT_PORT') if len(env('CURRENT_PORT')) else ''}"
 
